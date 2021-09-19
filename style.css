@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: myriad pro;
+}
+
+body{
+    background: linear-gradient(45deg,#0aacea,#b921ff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+
+section{
+    max-width: 720px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+section > h3{
+    background-color: rgb(24, 24, 24);
+    color: white;
+    letter-spacing: 3px;
+    padding: 25px;
+    text-transform: uppercase;
+    border-radius: 5px 5px 0 0;
+}
+
+.form-body{
+    padding: 50px;
+}
+
+.form-body>div{
+    display: flex;
+    margin: 30px 0;
+}
+.form-body p{
+    color: rgb(139, 139, 139);
+    text-align: start;
+    margin-top: 5px;
+}
+.form-body input{
+    background-color:rgb(231, 231, 231);
+    border: none;
+    height: 40px;
+    padding: 0px 20px;
+    border-radius: 3px;
+}
+
+.form-body h5{
+
+    margin-right: 70px;
+    width:30px;
+    line-height: 35px;
+    color: rgb(95, 95, 95);
+}
+.form-body > div div{
+    margin-right: 50px;
+
+}
+.name input{
+    width: 225px;
+}
+
+.company div input , .Email div input{
+    width: 500px;
+}
+
+.phone div input{
+    width: 110px;
+}
+
+.phone div:last-child input{
+    width: 340px;
+}
+
+.Subject select{
+    border: none;
+    height: 40px;
+    background-color: rgb(235, 235, 235);
+    color: rgb(136, 136, 136);
+    width: 500px;
+    padding: 5px 20px 5px 20px;
+}
+
+
+
+.special{
+    width: inherit !important;
+    text-align: start;
+}
+.yesNo{
+   margin: 0px !important;
+}
+
+input[type="radio"]:checked{
+    color: black;
+
+}
+
+div>button{
+    border: none;
+    background:#fe4c5c;
+    color:white;
+    font-size: 18px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
